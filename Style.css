@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display: flex;
+    background-color: #151515;
+    height: 8vh;
+    font-family: 'Bruno Ace SC', cursive;
+    border-bottom: 0.5px solid #94CEC3;
+    border-top: 0.5px solid #94CEC3;
+}
+header ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    white-space: nowrap;
+}
+header ul li {
+    list-style-type: none;
+    margin: 1vw;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+.Contact{
+    margin: 1vw 2vw 1vw 1vw;
+}
+li a:hover{
+    color: #94CEC3;
+
+}
+.Main a{
+    color: white;
+    text-decoration: none;
+}
+.Main{
+    margin: 2vw;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 3vh;
+}
+@media screen and (max-width: 903px) {
+    .buttons{
+        display: flex;
+        margin: 11vw 0vw;
+        justify-content: center;
+        flex-direction: column;
+    }   
+}
+
+
+.mainbody{
+    display: flex;
+    height: auto;
+    background-color: #252626;
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.mainbody h1{
+    margin: 10vh 10vh 5vh;
+    font-size: 10vh;
+    text-align: center;
+    opacity: 85%;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.mainbody p{
+    opacity: 85%;
+    text-align: center;
+    margin: 0vh 10vh;
+    font-size: 4vh;
+}
+.buttons{
+    display: flex;
+    margin: 11vw 0vw;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn{
+    margin: 2vw 6vw;
+    padding: 2vw 4vw;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0vw;
+    white-space: nowrap;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #94CEC3;
+    font-family: 'Bruno Ace SC', cursive;
+    box-shadow: 0 4px 50px 0 rgba(186, 237, 255, 0.2);
+    box-shadow: 0 -4px 50px 0 rgba(186, 237, 255, 0.2);
+
+}
+#mainbody{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+#changebg:hover{
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s; 
+    background-color: #4a6762;
+}
+#welcome:hover{
+    background-color: #4a6762;
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s; 
+}
+#changehead:hover{
+    background-color: #4a6762;
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s; 
+}
+#time{
+    font-size: 4vh;
+}
+#date{
+    font-size: 7vh;
+    margin: 0vh 0vw 15vh 0vw;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #151515;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    position: relative;
+    font-family: 'Bruno Ace SC', cursive;
+    border-bottom: 0.5px solid #94CEC3;
+    border-top: 0.5px solid #94CEC3;
+   
+}
